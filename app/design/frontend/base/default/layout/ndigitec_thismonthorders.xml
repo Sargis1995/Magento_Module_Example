@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <customer_account_index translate="label">
+        <reference name="customer_account_dashboard">
+                <block type="ndigitec_thismonthorders/view" name="ndigitec_thismonthorders_content" as="thismonthorders" template="ndigitec_thismonthorders/view.phtml"/>
+        </reference>
+    </customer_account_index>
+</layout>

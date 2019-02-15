@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ndigitec_ThisMonthOrders>
+            <version>0.1.0</version>
+        </Ndigitec_ThisMonthOrders>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <ndigitec_thismonthorders module="Ndigitec_ThisMonthOrders">
+                    <file>ndigitec_thismonthorders.xml</file>
+                </ndigitec_thismonthorders>
+            </updates>
+        </layout>
+        <routers>
+            <ndigitec_thismonthorders>
+                <use>standard</use>
+                <args>
+                    <module>Ndigitec_ThisMonthOrders</module>
+                    <frontName>ndigitec_thismonthorders</frontName>
+                </args>
+            </ndigitec_thismonthorders>
+        </routers>
+    </frontend>
+    <global>
+        <models>
+            <ndigitec_thismonthorders>
+                <class>Ndigitec_ThisMonthOrders_Model</class>
+            </ndigitec_thismonthorders>
+        </models>
+        <helpers>
+            <ndigitec_thismonthorders>
+                <class>Ndigitec_ThisMonthOrders_Helper</class>
+            </ndigitec_thismonthorders>
+        </helpers>
+        <blocks>
+            <ndigitec_thismonthorders>
+                <class>Ndigitec_ThisMonthOrders_Block</class>
+            </ndigitec_thismonthorders>
+        </blocks>
+    </global>
+</config>

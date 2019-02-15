@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ndigitec_ThisMonthOrders>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Ndigitec_ThisMonthOrders>
+    </modules>
+</config>
